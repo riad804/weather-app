@@ -49,18 +49,45 @@ A beautiful weather application built with Flutter that provides real-time weath
    ```bash
    git clone https://github.com/riad804/weather-app.git
    cd weather-app
+   ```
 
-2. Create a *.env* file in the root directory based on the provided *example.env*:
+2. Create a `.env` file in the root directory based on the provided `example.env`:
    ```bash
    BASE_URL=
    WEEKLY_URL=
    API_KEY=
    API_KEY_2=
+   ```
 
 3. Install dependencies:
    ```bash
    flutter pub get
+   ```
 
 3. Run the app:
    ```bash
    flutter run
+   ```
+
+### Configuration
+1. Before running the app, you need to:
+2. Get a free API key from [OpenWeatherMap](https://openweathermap.org/api)
+3. Add your API key to the `.env` file
+
+# Project Structure 📂
+```bash
+├───constants
+├───extensions
+├───models
+├───providers
+├───routes
+├───screens
+│   ├───views
+│   └───widgets
+├───services
+└───utils
+```
+
+---
+
+Made with ❤️ by [Md. Riadul Islam] | [Linkedin/@riadulislam] | [dev.riadul@gmail.com]
